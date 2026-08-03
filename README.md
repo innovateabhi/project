@@ -1,11 +1,11 @@
 
-# 🔒 Secure Linux Web Server Deployment with Firewall Configuration and HTTPS using Self-Signed SSL Certificate
+# Linux Web Server Deployment with Firewall Configuration and HTTPS using Self-Signed SSL Certificate
 
 ---
 
 # 📌 Project Overview
 
-This project demonstrates the deployment of a **Secure Linux Web Server** using **Apache HTTP Server** on **CentOS Stream**. The primary objective is to understand how a Linux System Administrator deploys, manages, and secures a web server using Linux administration tools.
+This project demonstrates the deployment of a **Secure Linux Web Server** using **Apache HTTP Server** on **Fedora**. The primary objective is to understand how a Linux System Administrator deploys, manages, and secures a web server using Linux administration tools.
 
 The project includes:
 
@@ -58,14 +58,14 @@ Instead of simply hosting a website, this project focuses on understanding **how
 | SSL | OpenSSL |
 | Service Manager | systemd |
 | Protocols | HTTP / HTTPS |
-| Frontend | HTML, CSS, JavaScript |
+| Frontend | HTML, CSS |
 
 ---
 
 # 📂 Project Directory Structure
 
 ```
-Linux-Web-Server-Deployment/
+linux-web-server-deployment/
 │
 ├── website/
 │   ├── index.html
@@ -81,12 +81,6 @@ Linux-Web-Server-Deployment/
 The following architecture illustrates the complete request flow from the client browser to the Apache Web Server.
 
 > **Replace the image below with your hand-drawn architecture diagram.**
-
-```markdown
-<p align="center">
-    <img src="screenshots/architecture-diagram.jpg" width="700">
-</p>
-```
 
 ---
 
@@ -1074,5 +1068,3 @@ Through this project, I gained practical knowledge of:
 - Linux File Permissions
 - Web Server Deployment
 - Linux Security Fundamentals
-
-
